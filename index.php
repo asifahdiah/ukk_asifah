@@ -2,19 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Beranda - GU&IM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Poppins', sans-serif;
             background: linear-gradient(90deg, #ffffff 0%, #a5cee8 100%);
             margin: 0;
             padding: 0;
+            color: #333; /* Changed text color */
         }
 
         header {
@@ -31,94 +29,72 @@
         }
 
         .container {
-            margin-top: 70px; /* Adjust as needed */
+            margin-top: 50px; /* Adjusted margin */
         }
 
         .content-wrapper {
             display: flex;
             align-items: center;
             justify-content: center;
-            height: calc(100vh - 70px); /* Adjust for header height */
+            min-height: calc(100vh - 70px); /* Adjusted height */
         }
 
         .content {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
             text-align: center;
         }
 
         .content img {
-            max-width: 100%;
+            max-width: 80%; /* Adjusted image size */
             height: auto;
-            margin-bottom: 1em;
-        }
-
-        .content h1, .content h2, .content h3, .content h4 {
-            color: #000;
-            margin: 0;
+            margin-bottom: 20px; /* Increased margin */
         }
 
         .content h1 {
-            font-size: 5vw;
-            font-weight: 300;
-            -webkit-text-stroke-color: rgba(23, 10, 14, 0.66);
-            -webkit-text-stroke-width: 1px;
+            font-size: 3rem; /* Adjusted font size */
+            font-weight: bold; /* Bold font */
+            margin-bottom: 10px; /* Increased margin */
         }
 
         .content h2 {
-            font-size: 2vw;
-            font-weight: 300;
+            font-size: 2rem; /* Adjusted font size */
+            font-weight: bold; /* Bold font */
+            margin-bottom: 20px; /* Increased margin */
         }
 
         .content h3 {
-            font-size: 2.5vw;
-            font-weight: 500;
+            font-size: 1.5rem; /* Adjusted font size */
+            font-weight: bold; /* Bold font */
+            margin-bottom: 20px; /* Increased margin */
         }
 
         .content h4 {
-            font-size: 3vw;
-            font-weight: 500;
+            font-size: 1.2rem; /* Adjusted font size */
+            margin-bottom: 30px; /* Increased margin */
         }
 
         .get-started-link {
             text-decoration: none;
-            color: black;
+            color: #fff; /* Changed text color */
             font-weight: bold;
-            font-size: 1.5vw;
-            margin-top: 1em;
-            padding: 0.5em 1em;
-            border: 2px solid #000;
+            font-size: 1.2rem; /* Adjusted font size */
+            padding: 10px 20px; /* Adjusted padding */
+            background-color: #007bff; /* Changed background color */
             border-radius: 5px;
             transition: background-color 0.3s ease;
         }
 
         .get-started-link:hover {
-            background-color: #000;
-            color: #fff;
+            background-color: #0056b3; /* Darker color on hover */
         }
     </style>
 </head>
 <body>
-    <a class="navbar-brand" href="#" style="color: black;">SeriBaca</a>
-
     <div class="container">
         <div class="content-wrapper">
             <div class="content">
-                <img src="assets/orang.png" alt="Ilustrasi Orang Membaca">
-
-                <div class="text">
-                    <h1>GU&IM</h1>
-                    <h2>Gudang Ilmu</h2>
-                    <br>
-                    <br>
-                    <h3>Mari temukan petualangan baru didalam</h3>
-                    <h4>buku!</h4>
-                    <br>
-                    <br>
-                    <a href="login.php" class="get-started-link">Get Started</a>
-                </div>
+                <h1>Mulai jelajahi dunia pengetahuan dengan perpustakaan digital kami</h1>
+                <h2>Klik untuk memulai!</h2>
+                <a href="login.php" class="get-started-link">Get Started</a>
             </div>
         </div>
     </div>
